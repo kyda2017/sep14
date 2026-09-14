@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="DearPaw helps senior-dog families notice small changes through simple daily records." />
+  <title>DearPaw — Notice the little changes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="DearPaw home">
+      <span class="paw">🐾</span> DearPaw
+    </a>
+    <a class="nav-cta" href="#early-access">Early access</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">FOR THE YEARS THAT MATTER MOST</p>
+        <h1>They change little by little.<br><span>Notice it sooner.</span></h1>
+        <p class="lead">
+          DearPaw helps families with senior dogs keep simple daily records
+          so small changes are easier to recognize over time.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#early-access">Join DearPaw early access</a>
+          <a class="button ghost" href="#how">See how it works</a>
+        </div>
+        <p class="micro">Simple. Gentle. Made for everyday care.</p>
+      </div>
+
+      <div class="hero-art" aria-label="DearPaw daily record preview">
+        <div class="sun"></div>
+        <div class="card pet-card">
+          <div class="avatar">🐶</div>
+          <div>
+            <strong>Charlie</strong>
+            <span>13 years old</span>
+          </div>
+        </div>
+        <div class="card note-card">
+          <span class="date">TODAY</span>
+          <strong>A quieter morning.</strong>
+          <p>Breakfast ✓ &nbsp; Walk ✓ &nbsp; Mood noted</p>
+        </div>
+        <div class="trail">🐾　🐾　🐾</div>
+      </div>
+    </section>
+
+    <section class="problem">
+      <p class="section-kicker">A FAMILIAR MOMENT</p>
+      <h2>“Was this happening last week, too?”</h2>
+      <p>
+        When you see your dog every day, gradual changes can be surprisingly hard to notice.
+        Memories fade, photos pile up, and little details get scattered.
+      </p>
+    </section>
+
+    <section class="steps" id="how">
+      <div class="section-head">
+        <p class="section-kicker">HOW IT WORKS</p>
+        <h2>Care begins with a small record.</h2>
+      </div>
+      <div class="step-grid">
+        <article>
+          <span>01</span>
+          <div class="icon">✍️</div>
+          <h3>Record today</h3>
+          <p>Capture the small things you want to remember without turning care into homework.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <div class="icon">🗓️</div>
+          <h3>Build a history</h3>
+          <p>Keep everyday moments together instead of scattered across notes, photos and memory.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <div class="icon">🔎</div>
+          <h3>See change</h3>
+          <p>Look back more clearly when something feels different and understand the story over time.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="quote-mark">“</div>
+      <blockquote>
+        I don’t need to remember everything.<br>
+        <strong>I just don’t want to miss what matters.</strong>
+      </blockquote>
+    </section>
+
+    <section class="signup" id="early-access">
+      <div>
+        <p class="section-kicker">EARLY ACCESS</p>
+        <h2>Stay close to the little changes.</h2>
+        <p>DearPaw is being shaped for people growing older alongside their dogs.</p>
+      </div>
+      <form id="waitlist-form">
+        <label class="sr-only" for="petAge">Your pet's age</label>
+        <input
+          id="petAge"
+          name="petAge"
+          type="number"
+          min="0"
+          max="40"
+          placeholder="Your pet's age"
+          required
+        />
+        <label class="sr-only" for="petProblem">Your pet's concern</label>
+        <input
+          id="petProblem"
+          name="petProblem"
+          type="text"
+          placeholder="What are you concerned about?"
+          required
+        />
+        <label class="sr-only" for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="Your email address" required />
+        <p></p>
+        <button type="submit">Keep me posted</button>
+        <p id="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><span class="paw">🐾</span> DearPaw</a>
+    <p>For every ordinary day worth remembering.</p>
+    <small>© 2026 DearPaw</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
